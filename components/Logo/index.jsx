@@ -4,11 +4,11 @@
 
 const Logo = ({ size, ...props }) => {
   return (
-    <div className="flex dark:text-teal-500 text-slate-800 hover:text-teal-500">
+    <div className="flex dark:text-slate-300	 text-slate-800 hover:text-teal-500">
       <span className="w-2 mr-1 bg-current"></span>
       <div className="font-mono flex flex-col uppercase font-semibold leading-4">
-        <span>Solid</span>
-        <span>Project</span>
+        <span>Test</span>
+        <span>Cart</span>
       </div>
     </div>
   );

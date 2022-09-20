@@ -14,11 +14,10 @@ const ThemeToggler = (props) => {
   return (
     <button
       onClick={toggleDarkTheme}
-      className="flex items-center text-slate-700 dark:text-teal-500 gap-1 hover:text-teal-500 rounded-md shadow-md p-2 bg-teal-50 dark:bg-teal-900"
+      className="flex items-center text-slate-700 dark:text-slate-300	 gap-1 hover:text-teal-500 rounded-md shadow-md p-2 bg-teal-50 dark:bg-teal-900"
       aria-label="Toggle Theme"
     >
       {darkTheme ? <DarkMode className="w-6" /> : <LightMode className="w-6" />}
-      Change Theme
     </button>
   );
 };
