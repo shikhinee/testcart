@@ -23,7 +23,7 @@ const RootPage = ({ products }) => {
 
     toast.success("Product added to the cart");
   };
-  console.log(products)
+  //console.log(products)
   return (
     <main className=" absolute w-full h-full pt-16 flex flex-col items-center justify-center bg-gradient-to-br from-gray-100 to-slate-100 dark:from-gray-900 dark:to-slate-900">
       <Head>
